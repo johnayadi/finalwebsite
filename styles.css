@@ -1,4 +1,8 @@
-body { background-image:url(ja.psd);
-    background-repeat:no-repeat;
-    background-size:cover;
+
+#background { 
+    width: 100%;
+    background-image: url("ja.png");
+    background-repeat: no-repeat;
+    min-height: 900px;
+    background-size: 100% 100%;
 }

@@ -1,3 +1,4 @@
-body { background: black;
-
+body { background-image:url(ja.psd);
+    background-repeat:no-repeat;
+    background-size:cover;
 }

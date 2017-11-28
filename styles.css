@@ -1,19 +1,25 @@
 
 body{
-
+    min-height: 400px;
     font-family: Arial, sans-serif;
+    margin-top: 3%; 
     
+}
+header{
+    min-height: 100px;
 }
 
 #nav {
+    min-height: 40px;
     width:  100%;
-    height: 400px;
-    background: url(banner.jpeg);
+    height: 800px;
+    background: url(ja.jpeg);
     background-size: cover;
     
 }
 
 #nav_wrapper{
+    min-height: 40px;
     height: 100px;
     width: 800px;
     background: #B7B7B7; 
@@ -26,6 +32,7 @@ body{
    
 }
 #nav_wrapper ul li {
+    min-height: 40px;
     list-style: none;
     display: inline;
     font-weight: bold;
@@ -34,6 +41,7 @@ body{
     
 }
 #nav_wrapper a{
+    min-height: 40px;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -46,3 +54,23 @@ body{
 
 
 }
+#footer{
+    min-height: 100px;
+    margin-top: 3%;
+}
+#header #menu #body #footer{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+    

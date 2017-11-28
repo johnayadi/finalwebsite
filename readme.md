@@ -6,4 +6,4 @@
 
 # Created new logo
 
-# Design and created a new navagtion system
+# Design and created a new navagation system

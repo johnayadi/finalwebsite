@@ -4,7 +4,7 @@
 <head>
     <title>WELCOME TO MY CV</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css"><!-- link for css -->
 </head>
 <body>
 <header>
@@ -14,10 +14,11 @@
 
     <nav>
 
-    
-            <ul>
-                 <li><a href="index.html"><img src="jalogo.png" alt="Websites logo"></a></li>
-                  <li><a href="experiencepage.html">Experience</a></li>
+					<a href="#" id="menu-open-close">menu</a>
+					
+            <ul id="nav-menu">
+                 <li><a href="index.html"><img src="jalogo.png" alt="Websites logo"></a></li><!-- when Logo is clicked this will take you back to index page  -->
+                  <li><a href="experiencepage.html">Experience</a></li><!-- NAV -->
                   <li><a href="qualificationpage.html">Qualifications</a></li>
                   <li><a href="contactpage.html">Contact</a></li>
             
@@ -37,16 +38,24 @@
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="city">City</label>
+    <label for="city">City</label> 
     <select id="city" name="city">
       <option value="london">London</option>
       <option value="leicester">Leicester</option>
-	  <option value="ociuk">Other Cities In The UK</option>
-	  <option value="ocouk">Other Cities Outside The UK</option>
+	  <option value="Edinburgh">Edinburgh</option>
+	  <option value="Manchester">Manchester</option>
+	  <option value="Glasgow">Glasgow</option>
+	  <option value="Liverpool">Liverpool</option>
+	  <option value="Birmingham">Birmingham</option>
+	  <option value="Yorkshire">Yorkshire</option>
+	  <option value="Nottingham">Nottingham</option>
+	  <option value="OCUK">Other cities in the UK</option><!-- if city isnt mentioned user can select OCUK and enter city in the textbox -->
     </select>
 
+	
+	
     <label for="message">Leave A Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write something..If city isn't mentioned please enter here..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
@@ -64,6 +73,8 @@
             <button type="Submit" class=button_1">Subscribe </button>
         </form>
     </footer>
+	
+<script src="nav.js"></script>
 </body>
 </html>
 

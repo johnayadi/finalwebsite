@@ -30,9 +30,8 @@ Due to the fact making a portfolio on yourself, gives me the adaptable to take c
 
 Design 
 IndexPage 
-<<<<<<< HEAD
+
 
 References
 https://fonts.google.com/specimen/Julius+Sans+One?selection.family=Julius+Sans+One
-=======
->>>>>>> 3db79bdcb3f1d923dd92579f7c35d55c26eabb43
+

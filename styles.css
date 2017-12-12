@@ -2,17 +2,39 @@
 /* Main body */
 body {
 
+<<<<<<< HEAD
 	font-family: 'Julius Sans One', sans-serif;
 	margin:0;
 	text-align:center;
 	height: 100%;
 }
 /* Headings within nav */
+=======
+header {
+	font-family: 'Julius Sans One', sans-serif;
+	background-color:a9a9a9;
+}
+
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	margin:0;
+	text-align:center;
+	left: 80px;
+	height: 100%; 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+   
+}
+
+>>>>>>> 3db79bdcb3f1d923dd92579f7c35d55c26eabb43
 ul {
 		background-color:grey;
 		padding-left:0;
 		opacity: 0.5;
 }
+<<<<<<< HEAD
 /* Nav ID */
 #nav-menu {
 	width:100%;
@@ -78,6 +100,59 @@ input[type=text], select, textarea {
 /* Style the submit button */
 input[type=submit] {
     background-color: #DCDCDC;
+=======
+#nav-menu {
+	width:100%;
+	display:none;
+}
+
+ul li {
+	display:block;
+	margin:20px auto;
+	border-bottom:2px solid white;
+}
+ul li a {
+	font-size:18px;
+	text-decoration:none;
+	margin:20px auto;
+	color:black;
+	display:block;
+	
+}
+
+ul li a img {
+	width:100px;
+}
+ul li:not(:first-child){
+	border-top:2px solid white;
+}
+
+ul li:not(:first-child):hover {
+	background-color:white;
+}
+p{
+    
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 80px;
+   
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+>>>>>>> 3db79bdcb3f1d923dd92579f7c35d55c26eabb43
     color: white;
     padding: 12px 20px;
     border: none;
@@ -85,13 +160,20 @@ input[type=submit] {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* When moving the mouse over the submit button, add a darker color */
 input[type=submit]:hover {
     background-color: #515151;
+=======
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+>>>>>>> 3db79bdcb3f1d923dd92579f7c35d55c26eabb43
 }
 
 /* Add a background color and some padding around the form */
 .container {
+<<<<<<< HEAD
     max-width: 800px;
     margin: auto;
     padding: 50px;
@@ -117,6 +199,29 @@ footer {
 
 ul{
 	width:100%;
+=======
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   
+  
+}
+
+@media screen and (min-width: 750px) {
+
+#menu-open-close{
+	display:none;
+}
+
+#nav-menu {
+	display:block;
+	border-bottom:2px solid white;
+>>>>>>> 3db79bdcb3f1d923dd92579f7c35d55c26eabb43
 }
 ul li {
 	display:inline-block;
@@ -125,4 +230,17 @@ ul li {
 	text-align:left;
 	}
 
+<<<<<<< HEAD
 }
+=======
+ul{
+	width:100%;
+}
+ul li {
+	display:inline-block;
+	padding-left:25px;
+	padding-right:25px;
+	text-align:left;
+	}	
+}
+>>>>>>> 3db79bdcb3f1d923dd92579f7c35d55c26eabb43

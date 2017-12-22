@@ -1,76 +1,181 @@
-
-body{
-    min-height: 400px;
-    font-family: Arial, sans-serif;
-    margin-top: 3%; 
-    
-}
-header{
-    min-height: 100px;
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+/* Main body */
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	margin:0;
+	text-align:center;
+	height: 100%;
 }
 
-#nav {
-    min-height: 40px;
-    width:  100%;
-    height: 800px;
-    background: url(ja.jpeg);
-    background-size: cover;
-    
+/* Headings within nav */
+ul {
+		background-color:#808080;
+		padding-left:0;
+		opacity: 0.5;
+}
+/* Nav ID */
+#nav-menu {
+	width:100%;
+	display:none;
+}
+/* Within nav*/
+ul li {
+	display:block;
+	margin:20px auto;
+	border-bottom:1px solid white;
+}
+/* Within nav */
+ul li a {
+	font-size:18px;
+	text-decoration:none;
+	margin:20px auto;
+	color:black;
+	display:block;
+
+}
+/* Within nav */
+ul li a img {
+	width:100px;
+}
+ul li:not(:first-child){
+	border-top:1px solid white;
 }
 
-#nav_wrapper{
-    min-height: 40px;
-    height: 100px;
-    width: 800px;
-    background: #B7B7B7; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-    opacity: 0.7;
-    filter: alpha (opacity=70); /*IE8 earlier */
-   
-   
+ul li a img{
+	margin-bottom: -25px;
 }
-#nav_wrapper ul li {
-    min-height: 40px;
-    list-style: none;
-    display: inline;
-    font-weight: bold;
-    padding: 15px;
-    
-    
+
+ul li:not(:first-child):hover {
+	background-color:white;
 }
-#nav_wrapper a{
-    min-height: 40px;
+
+/* Within Main/body */
+main {
+	background-image: url("ja.jpeg");
+	height:100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+p{
+	max-width: 700px;
+	margin: 0 auto;
+	float: none;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+		margin: auto;
+}
+/* Style the submit button */
+input[type=submit] {
+    background-color: #DCDCDC;
     color: white;
-    text-decoration: none;
-    padding: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-#nav_wrapper ul li :hover{
-    background: red;
-    transition: all 0.45s;
-    opacity: 0.5;
-    filter: alpha (opacity=90); /*IE8 earlier */
+
+/* When moving the mouse over the submit button, add a darker color */
+input[type=submit]:hover {
+    background-color: #515151;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+footer {
+   width:100%;
 
 
 }
-#footer{
-    min-height: 100px;
-    margin-top: 3%;
+/* Moblie/Tablet View */
+@media screen and (min-width: 750px) {
+
+#menu-open-close{
+	display:none;
 }
-#header #menu #body #footer{
-    margin-left: 10%;
-    margin-right: 10%;
+
+#nav-menu {
+	display:block;
+	border-bottom:2px solid white;
+}
+
+ul{
+	width:100%;
+}
+ul li {
+	display:inline-block;
+	padding-left:25px;
+	padding-right:25px;
+	text-align:left;
+	}
 
 }
 
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
+/*Light Bulb SVG*/ 
+#altogether {
+	width:20%;
+	animation: scale 2s infinite;
 }
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
+#world {
+	animation: rotate 3s ease-in-out infinite;
+	transform-origin: center;
 }
 
-    
+.lgts {
+	opacity:0;
+	fill:red;
+	animation: example 1s infinite;
+}
+
+.lgts:nth-child(1) { animation-delay: .2s }
+.lgts:nth-child(2) { animation-delay: .6s }
+.lgts:nth-child(3) { animation-delay: .8s }
+.lgts:nth-child(4) { animation-delay: .10s }
+.lgts:nth-child(5) { animation-delay: 1.2s }
+.lgts:nth-child(6) { animation-delay: 1.4s }
+.lgts:nth-child(7) { animation-delay: 1.6s }
+.lgts:nth-child(8) { animation-delay: 1.8s }
+.lgts:nth-child(9) { animation-delay: 1.10s }
+
+@keyframes example {
+    10% {opacity:1;}
+    50% {fill: yellow;}
+}
+
+@keyframes rotate {
+	50% {transform: rotate(180deg);}
+	100% {transform: rotate(359deg);}
+}
+
+@keyframes scale {
+	20% { transform: scale(1.1); }
+}
+
+.container {
+	display: flex;
+  }
+  .inner {
+	flex: 0 1 auto;
+	display: flex;
+	position: fixed;
+	height: 100%;
+	
+	justify-content: center;
+  }
+  img {
+	flex: 0 1 auto;
+	height: 200px;
+	align-items: center;
+  }

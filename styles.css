@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 /* Main body */
 body {
-<<<<<<< HEAD
 	font-family: 'Julius Sans One', sans-serif;
 	margin:0;
 	text-align:center;
@@ -44,70 +43,6 @@ ul li:not(:first-child){
 
 ul li a img{
 	margin-bottom: -25px;
-=======
-
-	font-family: 'Julius Sans One', sans-serif;
-	margin:0;
-	text-align:center;
-	height: 100%;
-}
-
-/* Headings within nav */
-header {
-	font-family: 'Julius Sans One', sans-serif;
-	background-color:a9a9a9;
-}
-
-body {
-	font-family: 'Julius Sans One', sans-serif;
-	margin:0;
-	text-align:center;
-	left: 80px;
-	height: 100%; 
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    
-   
-}
-
-ul {
-		background-color:grey;
-		padding-left:0;
-		opacity: 0.5;
-}
-
-
-/* Nav ID */
-#nav-menu {
-	width:100%;
-	display:none;
-}
-/* Within nav*/
-ul li {
-	display:block;
-	margin:20px auto;
-	border-bottom:1px solid white;
-}
-/* Within nav */
-ul li a {
-	font-size:18px;
-	text-decoration:none;
-	margin:20px auto;
-	color:black;
-	display:block;
-}
-
-/* Within nav */
-ul li a img {
-	width:100px;
-}
-ul li:not(:first-child){
-	border-top:1px solid white;
-}
-ul li a img{
-	margin-bottom:-25px;
->>>>>>> 98ecf6c521f8c10c5296c970f73dbe23d3d3d997
 }
 
 ul li:not(:first-child):hover {
@@ -119,7 +54,6 @@ main {
 	background-image: url("ja.jpeg");
 	height:100vh;
 	background-repeat: no-repeat;
-<<<<<<< HEAD
 	background-position: center;
 }
 
@@ -129,20 +63,6 @@ p{
 	float: none;
 }
 
-=======
-	
-  	background-position: center; 	
-}
-
-/* Within body/Paragraph */
-p{
-	max-width: 700px;
-margin: 0 auto;
-float: none;
-
-/* Within contactpage/Contact form */
-}
->>>>>>> 98ecf6c521f8c10c5296c970f73dbe23d3d3d997
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -156,62 +76,6 @@ input[type=text], select, textarea {
 /* Style the submit button */
 input[type=submit] {
     background-color: #DCDCDC;
-<<<<<<< HEAD
-=======
-}
-#nav-menu {
-	width:100%;
-	display:none;
-}
-
-ul li {
-	display:block;
-	margin:20px auto;
-	border-bottom:2px solid white;
-}
-ul li a {
-	font-size:18px;
-	text-decoration:none;
-	margin:20px auto;
-	color:black;
-	display:block;
-	
-}
-
-ul li a img {
-	width:100px;
-}
-ul li:not(:first-child){
-	border-top:2px solid white;
-}
-
-ul li:not(:first-child):hover {
-	background-color:white;
-}
-p{
-    
-    margin-top: 30px;
-    margin-bottom: 100px;
-    margin-right: 400px;
-    margin-left: 80px;
-   
-}
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-
->>>>>>> 98ecf6c521f8c10c5296c970f73dbe23d3d3d997
     color: white;
     padding: 12px 20px;
     border: none;
@@ -247,7 +111,6 @@ footer {
 	border-bottom:2px solid white;
 }
 
-<<<<<<< HEAD
 ul{
 	width:100%;
 }
@@ -268,31 +131,8 @@ ul li {
 #world {
 	animation: rotate 3s ease-in-out infinite;
 	transform-origin: center;
-=======
-/* When moving the mouse over the submit button, add a darker color */
-input[type=submit]:hover {
-    background-color: #515151;
-}
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-
 }
 
-/* Add a background color and some padding around the form */
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 50px;
->>>>>>> 98ecf6c521f8c10c5296c970f73dbe23d3d3d997
-}
-/* When moving the mouse over the submit button, add a darker color */
-footer {
-  
-   width:100%;
-
-
-<<<<<<< HEAD
 .lgts {
 	opacity:0;
 	fill:red;
@@ -339,63 +179,3 @@ footer {
 	height: 200px;
 	align-items: center;
   }
-=======
-}
-/* Tablet veiw */
-@media screen and (min-width: 750px) {
-
-#menu-open-close{
-	display:none;
-}
-
-#nav-menu {
-	display:block;
-	border-bottom:2px solid white;
-}
-
-ul{
-	width:100%;
-
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   
-  
-}
-
-@media screen and (min-width: 750px) {
-
-#menu-open-close{
-	display:none;
-}
-
-#nav-menu {
-	display:block;
-	border-bottom:2px solid white;
-
-}
-ul li {
-	display:inline-block;
-	padding-left:25px;
-	padding-right:25px;
-	text-align:left;
-	}
-
-
-ul{
-	width:100%;
-}
-ul li {
-	display:inline-block;
-	padding-left:25px;
-	padding-right:25px;
-	text-align:left;
-		}	
-	}
-}
->>>>>>> 98ecf6c521f8c10c5296c970f73dbe23d3d3d997

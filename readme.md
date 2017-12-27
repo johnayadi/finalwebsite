@@ -4,7 +4,6 @@ My public repository for CTEC3905 practical work
 
 My repository will contain all the relevant files and documentation for the project. A website built using HTML5, CSS and JavaScript all for scratch.
 
-<<<<<<< HEAD
 Concept As an undergraduate the idea of a CV based website, I found that this was a great way to get this project done, but furthermore promote myself for the real world. By focusing on these two forms, this allows me to showcase my skills using HTML5, CSS and JavaScript, for not only my project teacher, but my future employer. The subject of creative portfolios also allows for a wide scope of potential creative designs and the flexibility to be formally creative.
 
 Language considerations When planning this project, a lot of different things came to mind in terms of consideration. The general idea for the project is to be as appealing as possible whilst presenting the content in an easy to read and navigate manner, good use of HTML and CSS will be essential. JavaScript can be used to perform more complex animations and transitions which CSS. I considered using so PHP and SQL but making a portfolio based online, PHP and SQL are not as prioritized.
@@ -17,7 +16,7 @@ Due to the fact making a portfolio on yourself, gives me the adaptable to take c
 References
 https://fonts.google.com/specimen/Julius+Sans+One?selection.family=Julius+Sans+One
 https://www.flaticon.com/
-=======
+
 Concept 
 As an undergraduate the idea of a CV based website, I found that this was a great way to get this project done, but furthermore promote myself for the real world. By focusing on these two forms, this allows me to showcase my skills using HTML5, CSS and JavaScript, for not only my project teacher, but my future employer. The subject of creative portfolios also allows for a wide scope of potential creative designs and the flexibility to be formally creative. 
 
@@ -31,6 +30,7 @@ Due to the fact making a portfolio on yourself, gives me the adaptable to take c
 
 
 
+<img src="/https://github.com/johnayadi/finalwebsite/blob/master/header.png" alt="header and navigation mobile screen - Copy.jpg">
 
 
 
@@ -49,4 +49,4 @@ IndexPage
 References
 https://fonts.google.com/specimen/Julius+Sans+One?selection.family=Julius+Sans+One
 
->>>>>>> 98ecf6c521f8c10c5296c970f73dbe23d3d3d997
+

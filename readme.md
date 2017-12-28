@@ -28,9 +28,9 @@ Content considerations
 Due to the fact making a portfolio on yourself, gives me the adaptable to take control of what and how I want the content on my website to be presented. The large mass of content on the website will be made up of entirely original work, so copyright is of a minimal concern. I made a personal logo and wallpaper on Photoshop for the website. The logo is on the top-left part of the website, used for not only presentation but also as a link to the home/index page. The wallpaper is used as a background image for all my website pages, this was a case of keep all the external documents in the same folder so the website runs smoothly.
 
 
+https://github.com/johnayadi/finalwebsite/blob/master/header.png
 
-
-<img src="/https://github.com/johnayadi/finalwebsite/blob/master/header.png" alt="header and navigation mobile screen - Copy.jpg">
+<img src="/lukejkay/website-final/blob/master/images-readmefile/header%20and%20navigation%20mobile%20screen%20-%20Copy.jpg?raw=true" alt="header and navigation mobile screen - Copy.jpg">
 
 
 

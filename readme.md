@@ -12,7 +12,8 @@ Language considerations When planning this project, a lot of different things ca
 I made the header and navigation one unit, so the navitation is within the header. I made a logo within photoshop which has my intials 'JA' and the logo is also a link to the home page. 
 
 
-<img src="/https://github.com/johnayadi/finalwebsite/blob/master/header1.png" alt="logo screen - Copy.jpg"> 
+
+![alt tag](http://github.com/johnayadi/finalwebsite/blob/master/header1.png")
 
 ###Footer Design
 The footer design was a simple form box giving the user the chance to recieve a copy of my cv.

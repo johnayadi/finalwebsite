@@ -13,7 +13,7 @@ I made the header and navigation one unit, so the navitation is within the heade
 
 
 
-![alt tag](http://github.com/johnayadi/finalwebsite/blob/master/Screen%20Shot%202017-11-29%20at%2012.41.20.png")
+![alt tag](https://github.com/johnayadi/finalwebsite/blob/master/Screen%20Shot%202017-11-29%20at%2012.41.20.png")
 
 ### Footer Design
 The footer design was a simple form box giving the user the chance to recieve a copy of my cv.

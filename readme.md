@@ -16,6 +16,7 @@ I made the header and navigation one unit, so the navitation is within the heade
 
 ![Navigation & Header](https://github.com/johnayadi/finalwebsite/blob/master/header.png "Navigation & Header")
 
+These pages are fully responsive and the image below shows what the page will look like on a mobile.
 ![Mobile Navigation & Header](https://github.com/johnayadi/finalwebsite/blob/master/header1.png "Mobile Navigation & Header")
 
 ### Footer Design

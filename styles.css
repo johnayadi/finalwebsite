@@ -73,6 +73,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
 	margin: auto;
 }
+
 /* Style the submit button */
 input[type=submit] {
     background-color: #DCDCDC;
@@ -97,6 +98,7 @@ input[type=submit]:hover {
 
 footer {
    width:100%;
+   display:block;
 }
 
 /* Moblie/Tablet View */
@@ -110,15 +112,21 @@ footer {
 	border-bottom:2px solid white;
 }
 
+#footer {
+	display:inline-block;
+}
+
 ul{
 	width:100%;
 }
+
 ul li {
 	display:inline-block;
 	padding-left:25px;
 	padding-right:25px;
 	text-align:left;
 	}
+
 }
 
 /*Light Bulb SVG*/ 
@@ -160,11 +168,11 @@ ul li {
 @keyframes scale {
 	20% { transform: scale(1.1); }
 }
-/* flexbox within the experiencepage */
+/* flexbox within the experiencePage */
 .flex-container {
 	display: flex;
 	justify-content: center;
-	background-color: #808080;
+	
   }
   
   .flex-container>div {
@@ -175,7 +183,7 @@ ul li {
 	line-height: 75px;
 	font-size: 30px;
   }
-/* edited text from experiencepage */
+/* edited textbox from experiencePage */
   .table {
     display:table;
 	width:94%;

@@ -12,7 +12,7 @@ Language considerations When planning this project, a lot of different things ca
 I made the header and navigation one unit, so the navitation is within the header. I made a logo within photoshop which has my intials 'JA' and the logo is also a link to the home page. 
 
 
-<img src="/johnayadi/finalwebsite/blob/master/Screen%20Shot%202017-11-29%20at%2012.41.20.pngraw=true" alt="logo - Copy.jpg"> 
+<img src="/https://github.com/johnayadi/finalwebsite/blob/master/header1.png" alt="logo screen - Copy.jpg"> 
 
 ###Footer Design
 The footer design was a simple form box giving the user the chance to recieve a copy of my cv.
@@ -45,11 +45,9 @@ Due to the fact making a portfolio on yourself, gives me the adaptable to take c
 
 https://github.com/johnayadi/finalwebsite/blob/master/header.png
 
-<img src="/johnayadi/finalwebsite/blob/master/Screen%20Shot%202017-11-29%20at%2012.41.20.pngraw=true" alt="logo screen - Copy.jpg"> 
 
 
 
- 
 
 
 ###References

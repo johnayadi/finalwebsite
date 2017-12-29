@@ -11,6 +11,9 @@ Language considerations When planning this project, a lot of different things ca
 ###Header & Navigation Design
 I made the header and navigation one unit, so the navitation is within the header. I made a logo within photoshop which has my intials 'JA' and the logo is also a link to the home page. 
 
+
+<img src="/johnayadi/finalwebsite/blob/master/Screen%20Shot%202017-11-29%20at%2012.41.20.pngraw=true" alt="logo - Copy.jpg"> 
+
 ###Footer Design
 The footer design was a simple form box giving the user the chance to recieve a copy of my cv.
 
@@ -40,7 +43,9 @@ When planning this project, a lot of different things came to mind in terms of c
 Due to the fact making a portfolio on yourself, gives me the adaptable to take control of what and how I want the content on my website to be presented. The large mass of content on the website will be made up of entirely original work, so copyright is of a minimal concern. I made a personal logo and wallpaper on Photoshop for the website. The logo is on the top-left part of the website, used for not only presentation but also as a link to the home/index page. The wallpaper is used as a background image for all my website pages, this was a case of keep all the external documents in the same folder so the website runs smoothly.
 
 
+https://github.com/johnayadi/finalwebsite/blob/master/header.png
 
+<img src="/johnayadi/finalwebsite/blob/master/Screen%20Shot%202017-11-29%20at%2012.41.20.pngraw=true" alt="logo screen - Copy.jpg"> 
 
 
 
